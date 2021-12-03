@@ -21,6 +21,7 @@ pipeline {
                  script{
                         dir("terraform")
                         {
+                            git "https://github.com/cndeke/week-24-project.git"
                         }
                     }
                 }
